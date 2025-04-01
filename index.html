@@ -1,0 +1,21 @@
+<html><body><p>No index file found.</p>
+<style>
+.fade-out {
+  opacity: 0;
+  transition: opacity 1s ease-out;
+}
+</style>
+<script>
+  function copyToClipboard(id, messageId) {
+    const textElem = document.getElementById(id);
+    navigator.clipboard.writeText(textElem.innerText);
+    const msg = document.getElementById(messageId);
+    msg.style.display = 'inline';
+    textElem.parentElement.classList.add('fade-out');
+    setTimeout(() => {
+      textElem.parentElement.style.display = 'none';
+    }, 1000);
+  }
+</script>
+
+</body></html>
