@@ -1,21 +1,1070 @@
-<html><body><p>No index file found.</p>
-<style>
-.fade-out {
-  opacity: 0;
-  transition: opacity 1s ease-out;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Soul-Stirring Quotes</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      margin-top: 40px;
+      color: #333;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+    }
+.card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background: #f9f9f9;
+  transition: opacity 0.5s ease;
 }
-</style>
-<script>
-  function copyToClipboard(id, messageId) {
-    const textElem = document.getElementById(id);
-    navigator.clipboard.writeText(textElem.innerText);
-    const msg = document.getElementById(messageId);
-    msg.style.display = 'inline';
-    textElem.parentElement.classList.add('fade-out');
-    setTimeout(() => {
-      textElem.parentElement.style.display = 'none';
-    }, 1000);
-  }
-</script>
 
-</body></html>
+.card.fade-out {
+  opacity: 0;
+}
+    button {
+      margin-top: 10px;
+      padding: 8px 12px;
+      border: none;
+      background-color: #007bff;
+      color: white;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+.copied-message {
+  display: inline-block;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  color: green;
+  font-size: 0.9em;
+  margin-left: 10px;
+}
+
+.copied-message.show {
+  opacity: 1;
+}
+
+  </style>
+</head>
+<body>
+  <h1>Soul-Stirring Quotes</h1>
+<h2>Healing & Becoming</h2>
+
+<div class="card">
+  <p id="quote1">You are not broken — you are a story still unfolding.</p>
+  <button onclick="copyToClipboard('quote1', 'msg1')">Copy</button>
+  <span class="copied-message" id="msg1">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote2">Some chapters aren’t meant to be understood — only survived.</p>
+  <button onclick="copyToClipboard('quote2', 'msg2')">Copy</button>
+  <span class="copied-message" id="msg2">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote3">Healing doesn’t always look like joy. Sometimes it’s just waking up again.</p>
+  <button onclick="copyToClipboard('quote3', 'msg3')">Copy</button>
+  <span class="copied-message" id="msg3">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote4">The version of you that kept going — that’s the one I’m proud of.</p>
+  <button onclick="copyToClipboard('quote4', 'msg4')">Copy</button>
+  <span class="copied-message" id="msg4">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote5">It’s okay to be a little softer after everything you’ve survived.</p>
+  <button onclick="copyToClipboard('quote5', 'msg5')">Copy</button>
+  <span class="copied-message" id="msg5">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote6">You’re allowed to outgrow the people who once held you.</p>
+  <button onclick="copyToClipboard('quote6', 'msg6')">Copy</button>
+  <span class="copied-message" id="msg6">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote7">Healing is a quiet rebellion — a refusal to stay broken.</p>
+  <button onclick="copyToClipboard('quote7', 'msg7')">Copy</button>
+  <span class="copied-message" id="msg7">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote8">Be gentle with the parts of you that had to be fierce for too long.</p>
+  <button onclick="copyToClipboard('quote8', 'msg8')">Copy</button>
+  <span class="copied-message" id="msg8">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote9">The day you stopped apologizing for your feelings, the healing began.</p>
+  <button onclick="copyToClipboard('quote9', 'msg9')">Copy</button>
+  <span class="copied-message" id="msg9">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote10">Becoming isn’t always pretty. Sometimes it’s messy, lonely, and exactly right.</p>
+  <button onclick="copyToClipboard('quote10', 'msg10')">Copy</button>
+  <span class="copied-message" id="msg10">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote11">Letting go doesn’t mean you didn’t love. It means you chose to love yourself too.</p>
+  <button onclick="copyToClipboard('quote11', 'msg11')">Copy</button>
+  <span class="copied-message" id="msg11">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote12">Forgiveness isn’t letting them off the hook — it’s letting yourself off the leash.</p>
+  <button onclick="copyToClipboard('quote12', 'msg12')">Copy</button>
+  <span class="copied-message" id="msg12">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote13">You don’t need closure from them. You need permission from yourself to move on.</p>
+  <button onclick="copyToClipboard('quote13', 'msg13')">Copy</button>
+  <span class="copied-message" id="msg13">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote14">Sometimes the weight we carry isn’t pain — it’s the fear of feeling it again.</p>
+  <button onclick="copyToClipboard('quote14', 'msg14')">Copy</button>
+  <span class="copied-message" id="msg14">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote15">Letting go isn’t weakness. It’s trusting you were meant for more.</p>
+  <button onclick="copyToClipboard('quote15', 'msg15')">Copy</button>
+  <span class="copied-message" id="msg15">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote16">Some people come into your life as mirrors. Others as lessons.</p>
+  <button onclick="copyToClipboard('quote16', 'msg16')">Copy</button>
+  <span class="copied-message" id="msg16">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote17">It’s okay to let go of a story that no longer feels like home.</p>
+  <button onclick="copyToClipboard('quote17', 'msg17')">Copy</button>
+  <span class="copied-message" id="msg17">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote18">Release the hope that the past could’ve been different. Peace lives ahead.</p>
+  <button onclick="copyToClipboard('quote18', 'msg18')">Copy</button>
+  <span class="copied-message" id="msg18">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote19">Sometimes the bravest thing you’ll ever do is walk away silently.</p>
+  <button onclick="copyToClipboard('quote19', 'msg19')">Copy</button>
+  <span class="copied-message" id="msg19">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote20">You can still love someone and decide they’re not your peace.</p>
+  <button onclick="copyToClipboard('quote20', 'msg20')">Copy</button>
+  <span class="copied-message" id="msg20">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote21">You deserve a love that doesn’t make you wonder if you’re too much.</p>
+  <button onclick="copyToClipboard('quote21', 'msg21')">Copy</button>
+  <span class="copied-message" id="msg21">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote22">Real love doesn’t ask you to shrink. It invites you to expand.</p>
+  <button onclick="copyToClipboard('quote22', 'msg22')">Copy</button>
+  <span class="copied-message" id="msg22">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote23">The right love feels like an exhale, not a test.</p>
+  <button onclick="copyToClipboard('quote23', 'msg23')">Copy</button>
+  <span class="copied-message" id="msg23">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote24">Choose the person who feels like safety, not suspense.</p>
+  <button onclick="copyToClipboard('quote24', 'msg24')">Copy</button>
+  <span class="copied-message" id="msg24">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote25">Love isn’t just how someone holds your hand — it’s how they hold your silence.</p>
+  <button onclick="copyToClipboard('quote25', 'msg25')">Copy</button>
+  <span class="copied-message" id="msg25">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote26">True love doesn’t rescue you — it reminds you you’ve always had wings.</p>
+  <button onclick="copyToClipboard('quote26', 'msg26')">Copy</button>
+  <span class="copied-message" id="msg26">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote27">The best kind of love is quiet — steady in a world that asks for noise.</p>
+  <button onclick="copyToClipboard('quote27', 'msg27')">Copy</button>
+  <span class="copied-message" id="msg27">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote28">Love that sees your scars and stays — that’s sacred.</p>
+  <button onclick="copyToClipboard('quote28', 'msg28')">Copy</button>
+  <span class="copied-message" id="msg28">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote29">Sometimes, love is the friend who answers, even when you’ve been silent too long.</p>
+  <button onclick="copyToClipboard('quote29', 'msg29')">Copy</button>
+  <span class="copied-message" id="msg29">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote30">Love begins where judgment ends.</p>
+  <button onclick="copyToClipboard('quote30', 'msg30')">Copy</button>
+  <span class="copied-message" id="msg30">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote31">There’s a sunrise waiting behind every goodbye.</p>
+  <button onclick="copyToClipboard('quote31', 'msg31')">Copy</button>
+  <span class="copied-message" id="msg31">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote32">Hope doesn’t ask you to be certain. It asks you to stay open.</p>
+  <button onclick="copyToClipboard('quote32', 'msg32')">Copy</button>
+  <span class="copied-message" id="msg32">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote33">Even the darkest night ends — and it wasn’t a failure to rest in the dark.</p>
+  <button onclick="copyToClipboard('quote33', 'msg33')">Copy</button>
+  <span class="copied-message" id="msg33">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote34">You don’t have to see the whole path to take the next gentle step.</p>
+  <button onclick="copyToClipboard('quote34', 'msg34')">Copy</button>
+  <span class="copied-message" id="msg34">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote35">Hope is the soul remembering light exists — even before the sun returns.</p>
+  <button onclick="copyToClipboard('quote35', 'msg35')">Copy</button>
+  <span class="copied-message" id="msg35">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote36">The sun rises whether you’re ready or not. And so can you.</p>
+  <button onclick="copyToClipboard('quote36', 'msg36')">Copy</button>
+  <span class="copied-message" id="msg36">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote37">There’s still time to be who you haven’t dared to become yet.</p>
+  <button onclick="copyToClipboard('quote37', 'msg37')">Copy</button>
+  <span class="copied-message" id="msg37">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote38">Hope is soft. And that softness will save you.</p>
+  <button onclick="copyToClipboard('quote38', 'msg38')">Copy</button>
+  <span class="copied-message" id="msg38">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote39">Somehow, you always survive the things you swore you couldn’t.</p>
+  <button onclick="copyToClipboard('quote39', 'msg39')">Copy</button>
+  <span class="copied-message" id="msg39">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote40">If you’re still here, there’s still something beautiful waiting inside you.</p>
+  <button onclick="copyToClipboard('quote40', 'msg40')">Copy</button>
+  <span class="copied-message" id="msg40">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote41">Grief is love with nowhere to go. So it lingers. So it aches.</p>
+  <button onclick="copyToClipboard('quote41', 'msg41')">Copy</button>
+  <span class="copied-message" id="msg41">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote42">Some goodbyes echo forever — but so do the ways they loved you.</p>
+  <button onclick="copyToClipboard('quote42', 'msg42')">Copy</button>
+  <span class="copied-message" id="msg42">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote43">Grief isn’t a detour from life. It’s a thread woven into it.</p>
+  <button onclick="copyToClipboard('quote43', 'msg43')">Copy</button>
+  <span class="copied-message" id="msg43">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote44">We carry them in all the ways we soften, pause, and remember.</p>
+  <button onclick="copyToClipboard('quote44', 'msg44')">Copy</button>
+  <span class="copied-message" id="msg44">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote45">Loss doesn’t shrink with time. But you grow around it.</p>
+  <button onclick="copyToClipboard('quote45', 'msg45')">Copy</button>
+  <span class="copied-message" id="msg45">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote46">Their name still feels like a prayer. That’s how you know it mattered.</p>
+  <button onclick="copyToClipboard('quote46', 'msg46')">Copy</button>
+  <span class="copied-message" id="msg46">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote47">The ache of missing them is a sign you were lucky to love like that.</p>
+  <button onclick="copyToClipboard('quote47', 'msg47')">Copy</button>
+  <span class="copied-message" id="msg47">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote48">Some losses change your shape, not your worth.</p>
+  <button onclick="copyToClipboard('quote48', 'msg48')">Copy</button>
+  <span class="copied-message" id="msg48">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote49">Grief is how the soul honors what it had to let go.</p>
+  <button onclick="copyToClipboard('quote49', 'msg49')">Copy</button>
+  <span class="copied-message" id="msg49">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote50">You’re allowed to smile with tears in your eyes. That’s what love looks like, after.</p>
+  <button onclick="copyToClipboard('quote50', 'msg50')">Copy</button>
+  <span class="copied-message" id="msg50">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote51">You don’t have to feel ready to start — you just have to begin anyway.</p>
+  <button onclick="copyToClipboard('quote51', 'msg51')">Copy</button>
+  <span class="copied-message" id="msg51">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote52">Change doesn’t always feel like progress. Sometimes it feels like chaos before clarity.</p>
+  <button onclick="copyToClipboard('quote52', 'msg52')">Copy</button>
+  <span class="copied-message" id="msg52">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote53">Courage isn’t loud. It’s the whisper: &lsquo;Try again tomorrow.&rsquo;</p>
+  <button onclick="copyToClipboard('quote53', 'msg53')">Copy</button>
+  <span class="copied-message" id="msg53">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote54">Transformation doesn’t ask for your comfort — just your presence.</p>
+  <button onclick="copyToClipboard('quote54', 'msg54')">Copy</button>
+  <span class="copied-message" id="msg54">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote55">You can bloom where you were buried.</p>
+  <button onclick="copyToClipboard('quote55', 'msg55')">Copy</button>
+  <span class="copied-message" id="msg55">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote56">The moment you choose yourself, everything begins to shift.</p>
+  <button onclick="copyToClipboard('quote56', 'msg56')">Copy</button>
+  <span class="copied-message" id="msg56">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote57">You can rebuild from ruins. Some of the best things are made from broken pieces.</p>
+  <button onclick="copyToClipboard('quote57', 'msg57')">Copy</button>
+  <span class="copied-message" id="msg57">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote58">Fear will always speak. Courage just learns not to obey.</p>
+  <button onclick="copyToClipboard('quote58', 'msg58')">Copy</button>
+  <span class="copied-message" id="msg58">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote59">Every time you didn’t give up — that was enough.</p>
+  <button onclick="copyToClipboard('quote59', 'msg59')">Copy</button>
+  <span class="copied-message" id="msg59">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote60">You don’t need a map. You need a moment of bravery.</p>
+  <button onclick="copyToClipboard('quote60', 'msg60')">Copy</button>
+  <span class="copied-message" id="msg60">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote61">You are not a problem to be solved. You are a person to be loved.</p>
+  <button onclick="copyToClipboard('quote61', 'msg61')">Copy</button>
+  <span class="copied-message" id="msg61">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote62">Your softness doesn’t need fixing. It needs room.</p>
+  <button onclick="copyToClipboard('quote62', 'msg62')">Copy</button>
+  <span class="copied-message" id="msg62">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote63">You don’t owe anyone the performance of strength.</p>
+  <button onclick="copyToClipboard('quote63', 'msg63')">Copy</button>
+  <span class="copied-message" id="msg63">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote64">Even when no one applauds, your effort matters.</p>
+  <button onclick="copyToClipboard('quote64', 'msg64')">Copy</button>
+  <span class="copied-message" id="msg64">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote65">You are not difficult — you’re deep.</p>
+  <button onclick="copyToClipboard('quote65', 'msg65')">Copy</button>
+  <span class="copied-message" id="msg65">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote66">There’s strength in showing up even when you feel invisible.</p>
+  <button onclick="copyToClipboard('quote66', 'msg66')">Copy</button>
+  <span class="copied-message" id="msg66">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote67">You are allowed to take up space, even when you don’t feel ready.</p>
+  <button onclick="copyToClipboard('quote67', 'msg67')">Copy</button>
+  <span class="copied-message" id="msg67">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote68">The right people won’t be afraid of your depth.</p>
+  <button onclick="copyToClipboard('quote68', 'msg68')">Copy</button>
+  <span class="copied-message" id="msg68">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote69">You don’t need to shine for someone else to see you.</p>
+  <button onclick="copyToClipboard('quote69', 'msg69')">Copy</button>
+  <span class="copied-message" id="msg69">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote70">Being enough was never the issue. Believing it was the journey.</p>
+  <button onclick="copyToClipboard('quote70', 'msg70')">Copy</button>
+  <span class="copied-message" id="msg70">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote71">Life isn’t a test. It’s a tapestry — even the tangles matter.</p>
+  <button onclick="copyToClipboard('quote71', 'msg71')">Copy</button>
+  <span class="copied-message" id="msg71">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote72">The meaning isn’t always in the moment. Sometimes it comes after the ache.</p>
+  <button onclick="copyToClipboard('quote72', 'msg72')">Copy</button>
+  <span class="copied-message" id="msg72">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote73">You’re not running out of time — you’re unfolding in it.</p>
+  <button onclick="copyToClipboard('quote73', 'msg73')">Copy</button>
+  <span class="copied-message" id="msg73">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote74">Nothing beautiful grows from rushing.</p>
+  <button onclick="copyToClipboard('quote74', 'msg74')">Copy</button>
+  <span class="copied-message" id="msg74">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote75">Some seasons teach more than they give. And that’s still growth.</p>
+  <button onclick="copyToClipboard('quote75', 'msg75')">Copy</button>
+  <span class="copied-message" id="msg75">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote76">Life is allowed to be slow, small, and sacred.</p>
+  <button onclick="copyToClipboard('quote76', 'msg76')">Copy</button>
+  <span class="copied-message" id="msg76">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote77">You don’t have to chase big things to live a big life.</p>
+  <button onclick="copyToClipboard('quote77', 'msg77')">Copy</button>
+  <span class="copied-message" id="msg77">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote78">Even the quietest lives are full of wonder.</p>
+  <button onclick="copyToClipboard('quote78', 'msg78')">Copy</button>
+  <span class="copied-message" id="msg78">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote79">The goal was never perfection — it was presence.</p>
+  <button onclick="copyToClipboard('quote79', 'msg79')">Copy</button>
+  <span class="copied-message" id="msg79">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote80">This is your one precious life. Let it be real.</p>
+  <button onclick="copyToClipboard('quote80', 'msg80')">Copy</button>
+  <span class="copied-message" id="msg80">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote81">You don’t have to be busy to be valuable. You just have to be awake to your own life.</p>
+  <button onclick="copyToClipboard('quote81', 'msg81')">Copy</button>
+  <span class="copied-message" id="msg81">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote82">Some days, the most important thing you’ll do is rest.</p>
+  <button onclick="copyToClipboard('quote82', 'msg82')">Copy</button>
+  <span class="copied-message" id="msg82">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote83">You are allowed to stop. The world will wait while you remember how to breathe.</p>
+  <button onclick="copyToClipboard('quote83', 'msg83')">Copy</button>
+  <span class="copied-message" id="msg83">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote84">Simplicity isn’t the absence of ambition — it’s the presence of clarity.</p>
+  <button onclick="copyToClipboard('quote84', 'msg84')">Copy</button>
+  <span class="copied-message" id="msg84">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote85">Stillness isn’t nothing. It’s everything returning to center.</p>
+  <button onclick="copyToClipboard('quote85', 'msg85')">Copy</button>
+  <span class="copied-message" id="msg85">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote86">What if peace isn’t found in doing more — but in needing less?</p>
+  <button onclick="copyToClipboard('quote86', 'msg86')">Copy</button>
+  <span class="copied-message" id="msg86">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote87">Rest is not a detour. It’s where you return to your true self.</p>
+  <button onclick="copyToClipboard('quote87', 'msg87')">Copy</button>
+  <span class="copied-message" id="msg87">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote88">Let your life be slow enough that your soul doesn’t have to shout.</p>
+  <button onclick="copyToClipboard('quote88', 'msg88')">Copy</button>
+  <span class="copied-message" id="msg88">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote89">You don’t have to outrun the noise. You can simply choose silence.</p>
+  <button onclick="copyToClipboard('quote89', 'msg89')">Copy</button>
+  <span class="copied-message" id="msg89">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote90">Breathe like you believe your body is worthy of gentleness.</p>
+  <button onclick="copyToClipboard('quote90', 'msg90')">Copy</button>
+  <span class="copied-message" id="msg90">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote91">You can be strong and still cry when it hurts.</p>
+  <button onclick="copyToClipboard('quote91', 'msg91')">Copy</button>
+  <span class="copied-message" id="msg91">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote92">Softness is a form of wisdom. Don’t let the world harden you.</p>
+  <button onclick="copyToClipboard('quote92', 'msg92')">Copy</button>
+  <span class="copied-message" id="msg92">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote93">You don’t have to glow all the time. Some days, you’re just light waiting to rest.</p>
+  <button onclick="copyToClipboard('quote93', 'msg93')">Copy</button>
+  <span class="copied-message" id="msg93">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote94">Your quietest days still count.</p>
+  <button onclick="copyToClipboard('quote94', 'msg94')">Copy</button>
+  <span class="copied-message" id="msg94">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote95">You’re not failing. You’re unfolding.</p>
+  <button onclick="copyToClipboard('quote95', 'msg95')">Copy</button>
+  <span class="copied-message" id="msg95">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote96">You don’t owe anyone the loud version of yourself.</p>
+  <button onclick="copyToClipboard('quote96', 'msg96')">Copy</button>
+  <span class="copied-message" id="msg96">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote97">Even when you're not blooming, you're still alive. Still growing.</p>
+  <button onclick="copyToClipboard('quote97', 'msg97')">Copy</button>
+  <span class="copied-message" id="msg97">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote98">The gentler you are with yourself, the more you begin to heal.</p>
+  <button onclick="copyToClipboard('quote98', 'msg98')">Copy</button>
+  <span class="copied-message" id="msg98">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote99">Some progress can’t be measured — only felt.</p>
+  <button onclick="copyToClipboard('quote99', 'msg99')">Copy</button>
+  <span class="copied-message" id="msg99">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote100">Your heart is allowed to want simple things. That’s not small — that’s sacred.</p>
+  <button onclick="copyToClipboard('quote100', 'msg100')">Copy</button>
+  <span class="copied-message" id="msg100">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote101">Let the small things save you — a warm mug, a kind word, a quiet morning.</p>
+  <button onclick="copyToClipboard('quote101', 'msg101')">Copy</button>
+  <span class="copied-message" id="msg101">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote102">Some days joy looks like having nothing scheduled and nowhere to be.</p>
+  <button onclick="copyToClipboard('quote102', 'msg102')">Copy</button>
+  <span class="copied-message" id="msg102">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote103">You don’t have to chase happiness. You can sit still and notice it.</p>
+  <button onclick="copyToClipboard('quote103', 'msg103')">Copy</button>
+  <span class="copied-message" id="msg103">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote104">Ordinary moments are often the ones we ache to relive.</p>
+  <button onclick="copyToClipboard('quote104', 'msg104')">Copy</button>
+  <span class="copied-message" id="msg104">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote105">Joy is the sunlight that shows up even when you forget to open the blinds.</p>
+  <button onclick="copyToClipboard('quote105', 'msg105')">Copy</button>
+  <span class="copied-message" id="msg105">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote106">The best days don’t demand anything — they just invite you in.</p>
+  <button onclick="copyToClipboard('quote106', 'msg106')">Copy</button>
+  <span class="copied-message" id="msg106">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote107">You were never too late to feel joy again.</p>
+  <button onclick="copyToClipboard('quote107', 'msg107')">Copy</button>
+  <span class="copied-message" id="msg107">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote108">Let your life be filled with moments that don’t need to be posted to be real.</p>
+  <button onclick="copyToClipboard('quote108', 'msg108')">Copy</button>
+  <span class="copied-message" id="msg108">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote109">Joy is made of fragments — collect them slowly, gently, gratefully.</p>
+  <button onclick="copyToClipboard('quote109', 'msg109')">Copy</button>
+  <span class="copied-message" id="msg109">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote110">The more you notice joy, the more it notices you back.</p>
+  <button onclick="copyToClipboard('quote110', 'msg110')">Copy</button>
+  <span class="copied-message" id="msg110">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote111">You don’t have to keep earning rest. You were always allowed.</p>
+  <button onclick="copyToClipboard('quote111', 'msg111')">Copy</button>
+  <span class="copied-message" id="msg111">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote112">You’re not falling apart — you’re shedding who you had to be.</p>
+  <button onclick="copyToClipboard('quote112', 'msg112')">Copy</button>
+  <span class="copied-message" id="msg112">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote113">You don’t have to carry it alone just because you always have.</p>
+  <button onclick="copyToClipboard('quote113', 'msg113')">Copy</button>
+  <span class="copied-message" id="msg113">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote114">You can be a work in progress and still be worthy of love.</p>
+  <button onclick="copyToClipboard('quote114', 'msg114')">Copy</button>
+  <span class="copied-message" id="msg114">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote115">Speak to yourself like someone worth saving — because you are.</p>
+  <button onclick="copyToClipboard('quote115', 'msg115')">Copy</button>
+  <span class="copied-message" id="msg115">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote116">You are not too much. You’ve just never been fully held.</p>
+  <button onclick="copyToClipboard('quote116', 'msg116')">Copy</button>
+  <span class="copied-message" id="msg116">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote117">You don’t need to be fully healed to deserve peace.</p>
+  <button onclick="copyToClipboard('quote117', 'msg117')">Copy</button>
+  <span class="copied-message" id="msg117">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote118">The way you talk to yourself becomes the way you walk through the world.</p>
+  <button onclick="copyToClipboard('quote118', 'msg118')">Copy</button>
+  <span class="copied-message" id="msg118">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote119">Some days are soft. Let that be your strength.</p>
+  <button onclick="copyToClipboard('quote119', 'msg119')">Copy</button>
+  <span class="copied-message" id="msg119">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote120">Being kind to yourself might be the most radical thing you do.</p>
+  <button onclick="copyToClipboard('quote120', 'msg120')">Copy</button>
+  <span class="copied-message" id="msg120">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote121">You are not here to prove anything. You are here to be everything you already are.</p>
+  <button onclick="copyToClipboard('quote121', 'msg121')">Copy</button>
+  <span class="copied-message" id="msg121">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote122">You were born whole. You’re just remembering it now.</p>
+  <button onclick="copyToClipboard('quote122', 'msg122')">Copy</button>
+  <span class="copied-message" id="msg122">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote123">The meaning of life isn’t out there — it’s right here in how you live today.</p>
+  <button onclick="copyToClipboard('quote123', 'msg123')">Copy</button>
+  <span class="copied-message" id="msg123">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote124">You won’t remember every detail, but you will remember how it felt to be alive.</p>
+  <button onclick="copyToClipboard('quote124', 'msg124')">Copy</button>
+  <span class="copied-message" id="msg124">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote125">Some of the most meaningful things come softly, without applause.</p>
+  <button onclick="copyToClipboard('quote125', 'msg125')">Copy</button>
+  <span class="copied-message" id="msg125">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote126">You’re allowed to want a quiet life that feels like peace instead of performance.</p>
+  <button onclick="copyToClipboard('quote126', 'msg126')">Copy</button>
+  <span class="copied-message" id="msg126">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote127">The life you want might begin with what you remove, not what you add.</p>
+  <button onclick="copyToClipboard('quote127', 'msg127')">Copy</button>
+  <span class="copied-message" id="msg127">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote128">Your life is not a task — it’s a canvas.</p>
+  <button onclick="copyToClipboard('quote128', 'msg128')">Copy</button>
+  <span class="copied-message" id="msg128">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote129">There is no finish line to becoming yourself — only moments where you arrive.</p>
+  <button onclick="copyToClipboard('quote129', 'msg129')">Copy</button>
+  <span class="copied-message" id="msg129">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote130">Your existence doesn’t need permission to matter.</p>
+  <button onclick="copyToClipboard('quote130', 'msg130')">Copy</button>
+  <span class="copied-message" id="msg130">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote131">Some days you’ll feel everything. Some days, nothing. Both are sacred.</p>
+  <button onclick="copyToClipboard('quote131', 'msg131')">Copy</button>
+  <span class="copied-message" id="msg131">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote132">You don’t have to have the right words. Your presence is enough.</p>
+  <button onclick="copyToClipboard('quote132', 'msg132')">Copy</button>
+  <span class="copied-message" id="msg132">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote133">You are more than what you produce. You are what you love, what you feel, what you make room for.</p>
+  <button onclick="copyToClipboard('quote133', 'msg133')">Copy</button>
+  <span class="copied-message" id="msg133">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote134">Everyone you meet is healing from something you cannot see.</p>
+  <button onclick="copyToClipboard('quote134', 'msg134')">Copy</button>
+  <span class="copied-message" id="msg134">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote135">The heart doesn’t always speak in words — sometimes it just aches.</p>
+  <button onclick="copyToClipboard('quote135', 'msg135')">Copy</button>
+  <span class="copied-message" id="msg135">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote136">There’s something holy in being fully human.</p>
+  <button onclick="copyToClipboard('quote136', 'msg136')">Copy</button>
+  <span class="copied-message" id="msg136">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote137">Every human moment — the cracked voice, the quiet joy, the awkward pause — is evidence of life being lived.</p>
+  <button onclick="copyToClipboard('quote137', 'msg137')">Copy</button>
+  <span class="copied-message" id="msg137">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote138">You’re not here to be perfect. You’re here to be present.</p>
+  <button onclick="copyToClipboard('quote138', 'msg138')">Copy</button>
+  <span class="copied-message" id="msg138">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote139">Vulnerability is not weakness. It’s a doorway to real connection.</p>
+  <button onclick="copyToClipboard('quote139', 'msg139')">Copy</button>
+  <span class="copied-message" id="msg139">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote140">There is nothing ordinary about making it through the day when your heart is heavy.</p>
+  <button onclick="copyToClipboard('quote140', 'msg140')">Copy</button>
+  <span class="copied-message" id="msg140">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote141">You are not behind. You are exactly where your becoming needs you to be.</p>
+  <button onclick="copyToClipboard('quote141', 'msg141')">Copy</button>
+  <span class="copied-message" id="msg141">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote142">Even your quiet unfolding is magnificent.</p>
+  <button onclick="copyToClipboard('quote142', 'msg142')">Copy</button>
+  <span class="copied-message" id="msg142">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote143">The most beautiful stories are the ones still being written.</p>
+  <button onclick="copyToClipboard('quote143', 'msg143')">Copy</button>
+  <span class="copied-message" id="msg143">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote144">You don’t have to be strong all the time — just honest.</p>
+  <button onclick="copyToClipboard('quote144', 'msg144')">Copy</button>
+  <span class="copied-message" id="msg144">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote145">Some seasons teach you how to breathe again.</p>
+  <button onclick="copyToClipboard('quote145', 'msg145')">Copy</button>
+  <span class="copied-message" id="msg145">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote146">You are still allowed to dream, even if you had to survive first.</p>
+  <button onclick="copyToClipboard('quote146', 'msg146')">Copy</button>
+  <span class="copied-message" id="msg146">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote147">You’re not too late for your own life.</p>
+  <button onclick="copyToClipboard('quote147', 'msg147')">Copy</button>
+  <span class="copied-message" id="msg147">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote148">The light in you was never lost — just buried beneath the noise.</p>
+  <button onclick="copyToClipboard('quote148', 'msg148')">Copy</button>
+  <span class="copied-message" id="msg148">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote149">One soft day at a time, you are becoming someone brave and whole.</p>
+  <button onclick="copyToClipboard('quote149', 'msg149')">Copy</button>
+  <span class="copied-message" id="msg149">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote150">This — your heart still open, your breath still steady — this is your miracle.</p>
+  <button onclick="copyToClipboard('quote150', 'msg150')">Copy</button>
+  <span class="copied-message" id="msg150">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote151">You’re allowed to feel calm without explaining how you got there.</p>
+  <button onclick="copyToClipboard('quote151', 'msg151')">Copy</button>
+  <span class="copied-message" id="msg151">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote152">Peace is often a decision to stop rehearsing what went wrong.</p>
+  <button onclick="copyToClipboard('quote152', 'msg152')">Copy</button>
+  <span class="copied-message" id="msg152">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote153">You don’t need to defend your calm to people who only know chaos.</p>
+  <button onclick="copyToClipboard('quote153', 'msg153')">Copy</button>
+  <span class="copied-message" id="msg153">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote154">Sometimes, the most peaceful thing you can do is not reply.</p>
+  <button onclick="copyToClipboard('quote154', 'msg154')">Copy</button>
+  <span class="copied-message" id="msg154">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote155">Peace isn’t being untouched by the world — it’s being unmoved by what’s not yours.</p>
+  <button onclick="copyToClipboard('quote155', 'msg155')">Copy</button>
+  <span class="copied-message" id="msg155">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote156">You’re not made for constant resistance. Let life flow more than you fight.</p>
+  <button onclick="copyToClipboard('quote156', 'msg156')">Copy</button>
+  <span class="copied-message" id="msg156">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote157">Some storms you walk through. Others, you watch pass from a distance.</p>
+  <button onclick="copyToClipboard('quote157', 'msg157')">Copy</button>
+  <span class="copied-message" id="msg157">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote158">Your boundaries are the architecture of your peace.</p>
+  <button onclick="copyToClipboard('quote158', 'msg158')">Copy</button>
+  <span class="copied-message" id="msg158">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote159">You don’t have to make everyone comfortable at the cost of your own peace.</p>
+  <button onclick="copyToClipboard('quote159', 'msg159')">Copy</button>
+  <span class="copied-message" id="msg159">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote160">Peace is choosing quiet even when you could be right.</p>
+  <button onclick="copyToClipboard('quote160', 'msg160')">Copy</button>
+  <span class="copied-message" id="msg160">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote161">When you let go of control, peace walks in like it was waiting all along.</p>
+  <button onclick="copyToClipboard('quote161', 'msg161')">Copy</button>
+  <span class="copied-message" id="msg161">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote162">You don’t have to fight every battle. Peace picks its moments.</p>
+  <button onclick="copyToClipboard('quote162', 'msg162')">Copy</button>
+  <span class="copied-message" id="msg162">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote163">There is a calm that only shows up when you stop trying to win.</p>
+  <button onclick="copyToClipboard('quote163', 'msg163')">Copy</button>
+  <span class="copied-message" id="msg163">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote164">Peace doesn’t scream for attention — it shows up when you listen differently.</p>
+  <button onclick="copyToClipboard('quote164', 'msg164')">Copy</button>
+  <span class="copied-message" id="msg164">Copied!</span>
+</div>
+
+ <script>
+  function copyToClipboard(quoteId, msgId) {
+  const text = document.getElementById(quoteId).innerText;
+  navigator.clipboard.writeText(text).then(() => {
+    const msg = document.getElementById(msgId);
+    const card = msg.closest(".card");
+
+    msg.classList.add("show");
+
+    setTimeout(() => {
+      msg.classList.remove("show");
+      card.classList.add("fade-out");
+
+      // Wait for the fade-out to finish before hiding it
+      setTimeout(() => {
+        card.style.display = "none";
+      }, 500); // match this to your CSS transition
+    }, 1500);
+  });
+}
+
+</script>
+</body>
+</html>
+
